@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>UPIXEL - Создание и продвижение сайтов в Донецке</title>
+    <meta name="description" content="Создание сайтов под ключ в Донецке, Уникальыне решения для вашего бизнеса. Разработка логотипов, продвижение в социальных сетях. Разработка мобильных приложений.">
+    <meta name="author" content="artdev.corp">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+
+</head>
+
+
+<body id="top">
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-jump">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="row">
+
+            <div class="header-logo">
+                <a class="site-logo" href="index.html"><img src="images/upixel.png" alt="Главная страница"></a>
+            </div>
+
+            <nav class="header-nav-wrap">
+                <ul class="header-nav">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Главная</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">О нас</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="services">Услуги</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="works">Портфолио</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Контакты</a></li>
+                </ul>
+            </nav> <!-- end header-nav-wrap -->
+
+            <a class="header-menu-toggle" href="#">
+                <span class="header-menu-icon"></span>
+            </a>
+
+        </div> <!-- end row -->
+
+    </header> <!-- end s-header -->
+
+    <style>
+        .bg-bubbles{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+
+            z-index: 1;
+        }
+        .bg-bubbles li{
+            position: absolute;
+            list-style: none;
+            display: block;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(64, 65, 128, 0.25);
+            bottom: -160px;
+
+            -webkit-animation: square 25s infinite;
+            animation:         square 25s infinite;
+
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;}
+        .bg-bubbles li:nth-child(1){
+            left: 10%;
+        }
+        .bg-bubbles li:nth-child(2){
+            left: 20%;
+
+            width: 80px;
+            height: 80px;
+
+            animation-delay: 2s;
+            animation-duration: 17s;
+        }
+        .bg-bubbles li:nth-child(3){
+            left: 25%;
+            animation-delay: 4s;
+        }
+        .bg-bubbles li:nth-child(4){
+            left: 40%;
+            width: 60px;
+            height: 60px;
+
+            animation-duration: 22s;
+
+            background-color: rgba(255, 75, 55, 0.25);
+        }
+        .bg-bubbles li:nth-child(5){
+            left: 70%;
+        }
+        .bg-bubbles li:nth-child(6){
+             left: 80%;
+             width: 120px;
+             height: 120px;
+
+             animation-delay: 3s;
+             background-color: rgba(255, 203, 0, 0.25);
+         }
+
+        .bg-bubbles li:nth-child(7){
+             left: 32%;
+             width: 160px;
+             height: 160px;
+
+             animation-delay: 7s;
+         }
+
+        .bg-bubbles li:nth-child(8){
+             left: 55%;
+             width: 20px;
+             height: 20px;
+
+             animation-delay: 15s;
+             animation-duration: 40s;
+         }
+
+        .bg-bubbles li:nth-child(9){
+             left: 25%;
+             width: 10px;
+             height: 10px;
+
+             animation-delay: 2s;
+             animation-duration: 40s;
+             background-color: rgba(255, 34, 71, 0.25);
+         }
+
+        .bg-bubbles li:nth-child(10){
+             left: 90%;
+             width: 160px;
+             height: 160px;
+
+             animation-delay: 11s;
+         }
+        @-webkit-keyframes square {
+            0%   { transform: translateY(0); }
+            100% { transform: translateY(-700px) rotate(600deg); }
+        }
+        @keyframes square {
+            0%   { transform: translateY(0); }
+            100% { transform: translateY(-700px) rotate(600deg); }
+        }
+    </style>
+
+    <!-- home
+    ================================================== space-molecules -->
+    <section id="home" class="s-home page-hero target-section"
+             data-parallax="scroll"
+             data-image-src="images/molecular-structures.jpg"
+             data-natural-width=3000
+             data-natural-height=1500
+             data-position-y=center>
+
+        <div class="shadow-overlay"></div>
+        <ul class="bg-bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h1>
+                Дизайн и создание сайтов,<br>
+                Создание Landing Page,<br>
+                Разработка логотипов
+                </h1>
+
+                <div class="home-content__button">
+                    <a href="#about" class="smoothscroll btn btn-animatedbg">
+                        Узнать больше
+                    </a>
+                </div>
+
+            </div> <!-- end home-content__main -->
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    Дальше
+                </a>
+            </div>
+
+        </div> <!-- end home-content -->
+
+        <ul class="home-social">
+            <li>
+                <a href="#"><i class="fab fa-vk" aria-hidden="true"></i><span>Вконтакте</span></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i><span>Инстаграм</span></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-telegram" aria-hidden="true"></i><span>Telegram</span></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
+            </li>
+            <li>
+                <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+            </li>
+
+        </ul> <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="01" class="subhead">Чем мы занимаемся</h3>
+                <h1 class="display-1">
+                    Созданием сайтов любой сложности: Landing Page, сайт-визитка, портфолио, интернет-магазины, корпоративный дизайн.
+                </h1>
+                <p class="lead">
+                    Разработка ведется на популярных CMS Wordpress, Joomla, ModX и фреймворке Laravel. Индивидуальный подход к каждому клиенту, разработка логотипов, дизайна для социальных сетей ВКонтакте, Инстаграм. Продвижение сайтов в поисковых системах GOOGLE, Yandex
+                </p>
+            </div>
+        </div>
+
+        <div class="row about-process block-1-2 block-tab-full">
+
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__header item-process__header--planning">
+                    <h3>Запуск сайтов на Wordpress / Laravel</h3>
+                </div>
+                <p>
+                    Вы решили создать свой сайт, используя Wordpress или Laravel, мы поможем Вам в этом. Будь то интернет магазин стильной одежды или корпоративный сайт известной личности. Индивидуальный подход.
+                </p>
+            </div>
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__header item-process__header--branding">
+                    <h3>Создание одностраничных сайтов (Landing Page)</h3>
+                </div>
+                <p>
+                    Желаете быстро получить прибыль или прорекламировать свою услугу? Ваш выбор - одностраничный сайт (Landing Page), с множеством блоков и различной структурой. Вы сможете выбрать - оставив просто HTML страницу в дизайне или проект с админ-панелью с использованием Wordpress.
+                </p>
+            </div>
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__header item-process__header--implementation">
+                    <h3>Создание макета сайта</h3>
+                </div>
+                <p>
+                    Вы не уверены в том, что именно хотите получить внешне? Поможем создать макет для вашего сайта, определим будущую структуру и внешний вид.
+                </p>
+            </div>
+            <div class="col-block item-process" data-aos="fade-up">
+                <div class="item-process__header item-process__header--documentation">
+                    <h3>Верстка существующих макетов</h3>
+                </div>
+                <p>
+                    У Вас уже есть прорисованный дизайн желаемого сайта, но нет специалиста который помог бы Вам? Предлагаем верстку сайта по предоставленному макету, адаптируем под мобильные и портативные устройства.
+                </p>
+            </div>
+
+        </div>  <!-- end about-process -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id="services" class="s-services target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="02" class="subhead">Услуги</h3>
+                <h1 class="display-1 display-1--light">
+                Мы предоставляем различные виды услуг связанных с разработкой сайтов, логотипов и уникального дизайна.
+                </h1>
+                <p class="lead lead-light">
+Обратившись за услугой к нам, Вы экономите время и деньги затраченные на поиск квалифицированного специалиста для разработки сайта и продвижения вашего бизнеса в интернете, а также получаете индвидуальный подход и прямое общение с разработчиком
+                </p>
+            </div>
+        </div>
+
+        <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <h4>Фирменный стиль</h4>
+                <p>
+                    Разработка фирменного стиля для вашего сайта
+                </p>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <h4>Логотипы</h4>
+                <p>
+                    Создание логотипа для вашей компании
+                </p>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <h4>Веб-дизайн</h4>
+                <p>
+                    Дизайн и редизайн сайтов
+                </p>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <h4>Программирование</h4>
+                <p>
+                    Архитектуры базы данных<br>
+                    Архитектуры приложения
+                </p>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <h4>Административные панели</h4>
+                <p>
+                   Сайты на Laravel<br>
+                   Сайты на Wordpress<br>
+                   Сайты на Joomla
+                </p>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <h4>Поддержка</h4>
+                <p>
+                    Техническая поддержка сайта,<br>
+                    Доработка существующего функционала<br>
+                    Аналитика сайта<br>
+                    Продвижение и оптимизация сайта
+                </p>
+            </div>
+
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="03" class="subhead">Последние работы</h3>
+                <h1 class="display-1">
+                Последние работы клиентов, с каждой из которых Вы можете ознакомиться более детально
+                </h1>
+            </div>
+        </div>
+
+        <div class="portfolio block-1-4 block-m-1-3 block-tab-1-2 collapse">
+
+            <div class="col-block item-folio" data-aos="fade-up">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-clinic_amk.png" class="thumb-link" title="AMK CLinic" data-size="1050x700">
+                        <img src="images/portfolio/gallery/g-clinic_amk.png"
+                             srcset="images/portfolio/gallery/g-clinic_amk.png 1x" alt="">
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        AMK CLinic
+                    </h3>
+                    <p class="item-folio__cat">
+                        Web Design
+                    </p>
+                </div>
+
+                <a href="#" class="item-folio__project-link" title="Project link">
+                    Подробнее
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>Создание сайта</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+
+            <div class="col-block item-folio" data-aos="fade-up">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-clinic_upgrade.png" class="thumb-link" title="UPGRADE clinic" data-size="1050x700">
+                        <img src="images/portfolio/gallery/g-clinic_upgrade.png"
+                             srcset="images/portfolio/gallery/g-clinic_upgrade.png 1x" alt="">
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        UPGRADE clinic
+                    </h3>
+                    <p class="item-folio__cat">
+                        Web Design
+                    </p>
+                </div>
+
+                <a href="#" class="item-folio__project-link" title="Project link">
+                    Подробнее
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>Создание сайта</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+
+            <div class="col-block item-folio" data-aos="fade-up">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-sportclub_grafit.png" class="thumb-link" title="SportClub Grafit" data-size="1050x700">
+                        <img src="images/portfolio/gallery/g-sportclub_grafit.png"
+                             srcset="images/portfolio/gallery/g-sportclub_grafit.png 1x" alt="">
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        SportClub Grafit
+                    </h3>
+                    <p class="item-folio__cat">
+                        Web Design
+                    </p>
+                </div>
+
+                <a href="#" class="item-folio__project-link" title="Project link">
+                    Подробнее
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>Создание сайта</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+
+            <div class="col-block item-folio" data-aos="fade-up">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-almaxgroup.png" class="thumb-link" title="Almax Group" data-size="1050x700">
+                        <img src="images/portfolio/gallery/g-almaxgroup.png"
+                             srcset="images/portfolio/gallery/g-almaxgroup.png 1x" alt="">
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Almax Group
+                    </h3>
+                    <p class="item-folio__cat">
+                        Web Design
+                    </p>
+                </div>
+
+                <a href="#" class="item-folio__project-link" title="Project link">
+                    Подробнее
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>Создание сайта</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+
+            <div class="col-block item-folio" data-aos="fade-up">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-estfruit_group.png" class="thumb-link" title="EastFruit Group" data-size="1050x700">
+                        <img src="images/portfolio/gallery/g-estfruit_group.png"
+                             srcset="images/portfolio/gallery/g-estfruit_group.png 1x" alt="">
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        EastFruit Group
+                    </h3>
+                    <p class="item-folio__cat">
+                        Web Design
+                    </p>
+                </div>
+
+                <a href="#" class="item-folio__project-link" title="Project link">
+                    Подробнее
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>Создание сайта</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+
+            <div class="col-block item-folio" data-aos="fade-up">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-traiding_company.png" class="thumb-link" title="Traiding Company" data-size="1050x700">
+                        <img src="images/portfolio/gallery/g-traiding_company.png"
+                             srcset="images/portfolio/gallery/g-traiding_company.png 1x" alt="">
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Traiding Company
+                    </h3>
+                    <p class="item-folio__cat">
+                        Web design
+                    </p>
+                </div>
+
+                <a href="#" class="item-folio__project-link" title="Project link">
+                    Подробнее
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>Создание сайта</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+
+            <div class="col-block item-folio" data-aos="fade-up">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-royallife.png" class="thumb-link" title="Royal Life" data-size="1050x700">
+                        <img src="images/portfolio/gallery/g-royallife.png"
+                             srcset="images/portfolio/gallery/g-royallife.png 1x" alt="">
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Royal Life
+                    </h3>
+                    <p class="item-folio__cat">
+                        Web design
+                    </p>
+                </div>
+
+                <a href="#" class="item-folio__project-link" title="Project link">
+                    Подробнее
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>Создание сайта</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+
+            <div class="col-block item-folio" data-aos="fade-up">
+
+                <div class="item-folio__thumb">
+                    <a href="images/portfolio/gallery/g-galaktika.png" class="thumb-link" title="Galaktika" data-size="1050x700">
+                        <img src="images/portfolio/gallery/g-galaktika.png"
+                             srcset="images/portfolio/gallery/g-galaktika.png 1x" alt="">
+                    </a>
+                </div>
+
+                <div class="item-folio__text">
+                    <h3 class="item-folio__title">
+                        Galaktika
+                    </h3>
+                    <p class="item-folio__cat">
+                        Web Design
+                    </p>
+                </div>
+
+                <a href="#" class="item-folio__project-link" title="Project link">
+                    Подробнее
+                </a>
+
+                <div class="item-folio__caption">
+                    <p>Создание сайта</p>
+                </div>
+
+            </div> <!-- end item-folio -->
+
+        </div> <!-- end portfolio -->
+
+    </section> <!-- end s-works -->
+
+
+    <!-- clients
+    ================================================== -->
+    <section id="clients" class="s-clients target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="04" class="subhead">Клиенты</h3>
+                <h1 class="display-1 display-1--light">Наши клиенты и партнеры</h1>
+            </div>
+        </div>
+
+        <div class="row clients-list block-1-4 block-tab-1-3 block-mob-1-2" data-aos="fade-up">
+
+            <div class="col-block item-client">
+                <a href="#">
+                    <img src="images/clients/icon-atom.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#">
+                    <img src="images/clients/icon-dropbox.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#">
+                    <img src="images/clients/icon-firefox.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#">
+                    <img src="images/clients/icon-github.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#">
+                    <img src="images/clients/icon-mozilla.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#">
+                    <img src="images/clients/icon-linux.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#">
+                    <img src="images/clients/icon-ubuntu.svg" alt="">
+                </a>
+            </div>
+            <div class="col-block item-client">
+                <a href="#">
+                    <img src="images/clients/icon-sass.svg" alt="">
+                </a>
+            </div>
+
+        </div> <!-- clients-list -->
+
+    </section> <!-- end s-clients -->
+
+
+    <!-- stats
+    ================================================== -->
+    <section id="stats" class="s-stats">
+
+        <div class="row stats-block block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+
+            <div class="col-block item-stats ">
+                <div class="item-stats__count">157</div>
+                <h5>Завершенные проекты</h5>
+            </div>
+            <div class="col-block item-stats">
+                <div class="item-stats__count">59</div>
+                <h5>Созданные логотипы</h5>
+            </div>
+            <div class="col-block item-stats">
+                <div class="item-stats__count">27</div>
+                <h5>Разработанный дизайн</h5>
+            </div>
+            <div class="col-block item-stats">
+                <div class="item-stats__count">1759</div>
+                <h5>Довольные клиенты</h5>
+            </div>
+
+        </div> <!-- end stats -->
+
+    </section> <!-- end s-stats -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 data-num="05" class="subhead">Как с нами связаться</h3>
+                <h1 class="display-1 display-1--light">Вы можете написать нам на почту ваши идеи, рассказать как видите ваш будущий сайт или обратиться к нам за помощью в поддержке существующего сайта <a href="mailto:created@upixel.website">help@upixel.website</a></h1>
+            </div>
+        </div>
+
+        <div class="row contact-infos">
+
+            <div class="col-five md-seven tab-full contact-address" data-aos="fade-up">
+                <h4>Напишите нам!</h4>
+
+                <div class="col-five tab-full contact-button" data-aos="fade-up">
+                    <a href="#services" class="smoothscroll btn btn-animatedbg btn-question">
+                        Задать вопрос
+                    </a>
+                    <a href="#services" class="smoothscroll btn btn-animatedbg btn-create-site">
+                        Заказать создание сайта
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-three md-five tab-full contact-social" data-aos="fade-up">
+                <h4>Мы в соц.сетях!</h4>
+
+                <ul class="contact-list">
+                    <li><a href="#">ВКонтакте</a></li>
+                    <li><a href="#">Инстаграм</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LindkedIn</a></li>
+                </ul>
+            </div>
+
+            <div class="col-four md-six tab-full contact-number" data-aos="fade-up">
+                <h4>Свяжитесь с нами!</h4>
+
+                <ul class="contact-list">
+                    <li><a href="mailto:info@upixel.website">info@upixel.website</a></li>
+                    <li><a href="tel:+380995604515">+38 099 560 45 15</a></li>
+                    <li><a href="">Telegram</a></li>
+                    <li><a href="">WhatsApp</a></li>
+                    <li><a href="">Viber</a></li>
+                </ul>
+            </div>
+
+        </div> <!-- end contact-infos -->
+
+        <div class="row contact-bottom">
+            <div class="col-five tab-full contact-button" data-aos="fade-up">
+                <a href="#services" class="smoothscroll btn btn-animatedbg">
+                    Наши услуги
+                </a>
+            </div>
+
+            <div class="col-six tab-full contact-subscribe" data-aos="fade-up">
+                <h4>Оформи подписку и получи скидку <span style="color: #dcdcdc;    background: #4658a5;    padding: 3px 20px;    border-bottom: 2px solid #cacaca;    font-size: 30px;">10%</span></h4>
+
+                <form id="mc-form" class="group mc-form" novalidate="true">
+                    <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Укажите ваш Email" required="">
+                    <input type="submit" name="subscribe" value="Подписаться">
+                    <label for="mc-email" class="subscribe-message"></label>
+                </form>
+            </div>
+        </div> <!-- end contact-button -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full cl-copyright">
+                <span>
+				Copyright &copy; 2018 - <script>document.write(new Date().getFullYear());</script> All rights reserved | Creative studio <a href="https://upixel.website" target="_blank">Upixel</a> for design and good works
+				</span>
+            </div>
+        </div>
+
+        <div class="cl-go-top">
+            <a class="smoothscroll" title="На верх" href="#top"></a>
+        </div>
+    </footer>
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
